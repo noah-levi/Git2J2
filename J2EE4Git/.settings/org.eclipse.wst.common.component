@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="J2EE4Git">
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+        <dependent-module archiveName="J2EE4GitClient.jar" deploy-path="/" handle="module:/resource/J2EE4GitClient/J2EE4GitClient">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="J2EE4GitEJB.jar" deploy-path="/" handle="module:/resource/J2EE4GitEJB/J2EE4GitEJB">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="J2EE4GitConnector.rar" deploy-path="/" handle="module:/resource/J2EE4GitConnector/J2EE4GitConnector">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="J2EE4GitWeb.war" deploy-path="/" handle="module:/resource/J2EE4GitWeb/J2EE4GitWeb">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
